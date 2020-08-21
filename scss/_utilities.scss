@@ -69,6 +69,16 @@
 }
 
 // Buttons
+
+.schedule-btn {
+	display: inline-block;
+	background: #66ccee;
+	color: #fff;
+	padding: 0.25rem 0.75rem;
+	border: none;
+	cursor: pointer;
+	font-size: 0.9rem;
+}
 .btn {
 	display: inline-block;
 	background: $light-color;

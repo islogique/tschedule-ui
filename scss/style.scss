@@ -75,4 +75,21 @@ img {
 	}
 }
 
+.schedule {
+	background-color: $light-color;
+	max-width: 500px;
+	padding: 1rem;
+	margin-bottom: 0.8rem;
+
+	a {
+		color: #333;
+	}
+
+	&--details {
+		display: flex;
+		margin-bottom: 0.5rem;
+		justify-content: space-between;
+	}
+}
+
 @import 'mobile';
